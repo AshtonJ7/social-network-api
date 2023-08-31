@@ -1,7 +1,7 @@
 const userSeeds = [
  {
-        username: 'Eddie23',
-        email: 'eddylee@gmail.com'
+        username: 'abcuser123',
+        email: 'lemonade3@gmail.com'
     },
     {
         username: 'alexJamespery23',
@@ -17,7 +17,7 @@ const userSeeds = [
 const thoughtSeeds = [
   {
     thoughtText: 'Time for bed',
-    username: 'Eddie23'
+    username: 'abcuser123'
 },
 {
     thoughtText: 'Keep your head up',

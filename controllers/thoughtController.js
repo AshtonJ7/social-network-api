@@ -36,7 +36,7 @@ async createThought(req, res) {
 
     const dbUserData = await User.findOneAndUpdate(
       {users: req.params.userId}, 
-      {$push: {thoughts: dbThoughtData._Id}}, 
+      {$push: {thoughts: dbThoughtData._id}}, 
       {new: true}
     );
     if (!dbUserData) {
@@ -91,14 +91,14 @@ async updateThought(req, res) {
   }
 },
  
-//Add a rection to a thought
+//Add a reaction to a thought
 
 async addReaction (req, res) {
   try {
     const dbThoughtData = await Thought.findOneAndUpdate(
       {_id: req.params.thoughtId},
-      {$addToset: { reactions: req.body} },
-      {runValidators: true, new: true} //run vlaidaotr
+      {$addToSet: { reactions:  req.body} },
+      {new: true} //run vlaidaotr
     );
 
     if (!dbThoughtData) {
@@ -115,20 +115,19 @@ async removeReaction(req, res) {
   try {
     const dbThoughtData = await Thought.findOneAndUpdate(
       {_id: req.params.thoughtId},
-      {$pull: { reactions: { reactionId: req.params.reactionId} } },
-      {runValidators: true, new: true} //run vlaidaotr
+      { $pull: { reactions: { reactionId: req.params.reactionId } } },
+      {new: true}
     );
 
     if (!dbThoughtData) {
       return res.status(404).json( { message: 'No thought with this id'});
   }
-  res.json(dbThoughtData);
-} catch (err) {
-  console.log(err); {
+  res.json( {message: "reaction was removed" } )
+  } catch (err) {
     res.status(500).json(err);
   }
 }
-}
-}
+
+};
 
  module.exports = thoughtController;
