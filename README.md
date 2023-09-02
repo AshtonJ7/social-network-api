@@ -1,6 +1,6 @@
 # social-network-api
 
-This is an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.
+This is an API created for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.
 
 ## User Story
 
@@ -25,3 +25,18 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 ```
 ## Tech
 Express.js for routing, a MongoDB database, and the Mongoose ODM.
+
+## Tech
+![image](https://github.com/AshtonJ7/Tech-Corner/assets/62944042/11202a16-fab6-434e-8cd5-927f4dfb7a34)
+
+## Walkthrough
+
+[Link] (https://drive.google.com/file/d/1-nae_OLsXWW0EF7IbsTd8blr5yr4BWvZ/view?usp=drive_link)
+
+## Usage / Installation
+
+- Git Clone Repo
+- Open IDE
+- ``npm start`` to start server on local host
+- Test using API tester such as Insominia or Postman
+- 
