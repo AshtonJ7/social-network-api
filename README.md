@@ -26,8 +26,8 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 ## Tech
 Express.js for routing, a MongoDB database, and the Mongoose ODM.
 
-## Tech
-![image](https://github.com/AshtonJ7/Tech-Corner/assets/62944042/11202a16-fab6-434e-8cd5-927f4dfb7a34)
+## Screenshot
+![image](https://github.com/AshtonJ7/social-network-api/assets/62944042/66a990aa-40da-42d6-818a-ffb39bb66968)
 
 ## Walkthrough
 
@@ -39,4 +39,3 @@ Express.js for routing, a MongoDB database, and the Mongoose ODM.
 - Open IDE
 - ``npm start`` to start server on local host
 - Test using API tester such as Insominia or Postman
-- 
