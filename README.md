@@ -24,14 +24,14 @@ WHEN I test API POST and DELETE routes in Insomnia
 THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 ```
 ## Tech
-Express.js for routing, a MongoDB database, and the Mongoose ODM.
+Express.js for routing, MongoDB database, and the Mongoose ODM.
 
 ## Screenshot
 ![image](https://github.com/AshtonJ7/social-network-api/assets/62944042/b6738296-76b3-4a1a-b5d2-b42b50fc6beb)
 
 ## Walkthrough
 
-[Link] (https://drive.google.com/file/d/1-nae_OLsXWW0EF7IbsTd8blr5yr4BWvZ/view?usp=drive_link)
+[Link](https://drive.google.com/file/d/1-nae_OLsXWW0EF7IbsTd8blr5yr4BWvZ/view?usp=drive_link)
 
 ## Usage / Installation
 
